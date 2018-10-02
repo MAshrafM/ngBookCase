@@ -1,0 +1,148 @@
+{
+  "books": [
+    {
+      "id": "1111",
+      "title": "Lethal White",
+      "cover": "https://images.gr-assets.com/books/1531231509l/28170940.jpg",
+      "rating": 4 ,
+      "author": "Robert Galbraith",
+      "publishDate": {
+        "year": 2018,
+        "month": 3,
+        "day": 11
+      }
+    },
+    {
+      "id": "1112",
+      "title": "Vengeful",
+      "cover": "https://images.gr-assets.com/books/1519916942l/26856502.jpg",
+      "rating": 4 ,
+      "author": "V.E. Schwab",
+      "publishDate": {
+        "year": 2018,
+        "month": 5,
+        "day": 10
+      }
+    },
+    {
+      "id": "1113",
+      "title": "Transcription",
+      "cover": "https://images.gr-assets.com/books/1521173471l/37946414.jpg",
+      "rating": 3 ,
+      "author": "Kate Atkinson",
+      "publishDate": {
+        "year": 2018,
+        "month": 4,
+        "day": 2
+      }
+    },
+    {
+      "id": "1114",
+      "title": "The Glass Ocean",
+      "cover": "https://images.gr-assets.com/books/1525359926l/36099162.jpg",
+      "rating": 4 ,
+      "author": "Beatriz Williams",
+      "publishDate": {
+        "year": 2018,
+        "month": 4,
+        "day": 5
+      }
+    },
+    {
+      "id": "1115",
+      "title": "Pride",
+      "cover": "https://images.gr-assets.com/books/1518630179l/35068632.jpg",
+      "rating": 3 ,
+      "author": "Ibe Zobi",
+      "publishDate": {
+        "year": 2018,
+        "month": 2,
+        "day": 22
+      }
+    },
+    {
+      "id": "1116",
+      "title": "Lost Queen",
+      "cover": "https://images.gr-assets.com/books/1535882851l/38355440.jpg",
+      "rating": 3 ,
+      "author": "Signe Pike",
+      "publishDate": {
+        "year": 2018,
+        "month": 2,
+        "day": 25
+      }
+    },
+    {
+      "id": "1117",
+      "title": "What I have Done",
+      "cover": "https://images.gr-assets.com/books/1517757018l/37759102.jpg",
+      "rating": 3 ,
+      "author": "Melinda Leigh",
+      "publishDate": {
+        "year": 2018,
+        "month": 5,
+        "day": 5
+      }
+    },
+    {
+      "id": "1117",
+      "title": "The Ragged Edge of Night",
+      "cover": "https://images.gr-assets.com/books/1534851337l/38096424.jpg",
+      "rating": 2 ,
+      "author": "Olivia Hawke",
+      "publishDate": {
+        "year": 2018,
+        "month": 7,
+        "day": 11
+      }
+    },
+    {
+      "id": "1118",
+      "title": "Origin",
+      "cover": "https://images.gr-assets.com/books/1534351402l/40858486.jpg",
+      "rating": 3,
+      "author": "Dan Brown",
+      "publishDate": {
+        "year": 2017,
+        "month": 6,
+        "day": 1
+      }
+    },
+    {
+      "id": "1119",
+      "title": "Leverage In Death",
+      "cover": "https://images.gr-assets.com/books/1520020353l/37638161.jpg",
+      "rating": 3,
+      "author": "J.D. Robb",
+      "publishDate": {
+        "year": 2018,
+        "month": 1,
+        "day": 11
+      }
+    },
+    {
+      "id": "1120",
+      "title": "Kite Runner",
+      "cover": "https://images.gr-assets.com/books/1484565687l/77203.jpg",
+      "rating": 5,
+      "author": "Khaled Hosseine",
+      "publishDate": {
+        "year": 2003,
+        "month": 1,
+        "day": 12
+      }
+    },
+    {
+      "id": "1121",
+      "title": "Under My Skin",
+      "cover": "https://images.gr-assets.com/books/1517709973l/36645003.jpg",
+      "rating": 2,
+      "author": "Lisa Unger",
+      "publishDate": {
+        "year": 2018,
+        "month": 2,
+        "day": 22
+      }
+    }
+  ]
+}

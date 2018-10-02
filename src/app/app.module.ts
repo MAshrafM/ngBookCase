@@ -13,7 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { AppRoutingModule } from './app-routing.module';
 
-import { BooksService } from './books/books.service'
+import { BookService } from './books/book.service'
 
 @NgModule({
   declarations: [
@@ -32,7 +32,7 @@ import { BooksService } from './books/books.service'
     NgbModule.forRoot(),
     AngularFontAwesomeModule,
   ],
-  providers: [BooksService],
+  providers: [BookService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

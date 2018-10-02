@@ -1,0 +1,32 @@
+.card-deck {
+  justify-content: center;
+  
+  .card{
+    position: relative;
+    margin-top: 30px;
+    min-height: 448px;
+    min-width: 250px;
+    max-width: 250px;
+    
+    .card-img-top{
+      transition: all .2s ease;
+      filter: grayscale(0%);
+    }
+    &:hover{
+      .card-img-top {
+        filter: grayscale(70%);
+      }
+    }
+    
+    h5 {
+      font-size: 16px;
+    }
+    h6 {
+      font-size: 13px;
+    }
+    .card-img-top {
+      height: 18rem;
+      width: 100%;
+    }
+  }
+}
