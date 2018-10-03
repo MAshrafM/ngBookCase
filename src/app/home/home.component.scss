@@ -1,0 +1,50 @@
+.jumbotron{
+  background-image: url('https://tokopress.club/bookie2/standard/wp-content/uploads/2016/06/slider-03.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  margin: -4px 0;
+  color: white;
+  padding-top: 25vh;
+  
+  .btn{
+    border-radius: 0;
+    font-weight: 700;
+    color: ghostwhite;
+  }
+}
+
+.search-wrp{
+  margin: 15px auto;
+  padding: 25px;
+}
+
+.pop-wrp{
+  height: 100vh;
+  background-color: #efefef;
+  padding: 20px;
+  color: #333;
+  img{
+    margin: 15px auto;
+  }
+  h2{
+    margin: 15px 0;
+  }
+  h3{
+    margin: 10px 0;
+  }
+  h4{
+    margin: 15px 0;
+  }
+}
+
+.check-wrp{
+  background-image: url(https://tokopress.club/bookie2/standard/wp-content/uploads/2016/06/banner-01.jpg?id=2971);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  align-items: center;
+  color: white;
+  
+}
