@@ -7,6 +7,10 @@
     <fa name="bars"></fa>
   </button>
   <div class="collapse navbar-collapse" id="navbar" [ngbCollapse]="isNavCollapsed">
+    <button class="btn btn-info mr-3" type="button" routerLink="/books">
+      <fa class="mr-1" name="info"></fa>
+      My Books
+    </button>
     <button class="btn btn-success" type="button" (click)="addBook()">
       <fa class="mr-1" name="plus-square"></fa>
       Add a book
