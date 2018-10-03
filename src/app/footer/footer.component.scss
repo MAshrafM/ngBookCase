@@ -1,0 +1,13 @@
+.blue{
+  background-color: #0d47a1
+}
+
+.page-footer{
+  color: rgba(255,255,255,.6);
+  a {
+    color: rgba(255,255,255,1);
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
