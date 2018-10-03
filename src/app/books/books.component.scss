@@ -41,11 +41,26 @@
       }
     }
     
+    .btn-danger {
+      opacity: 0;
+      box-shadow: 3px 3px 5px -1px #424d59;
+      transition: opacity ease-in-out .2s;
+      position: absolute;
+      right: 4px;
+      top: 54px;
+      border-radius: 50%;
+      height: 42px;
+      width: 42px;
+    }
+    
     &:hover{
       .card-img-top {
         filter: grayscale(70%);
       }
       .btn-dark {
+        opacity: 1;
+      }
+      .btn-danger {
         opacity: 1;
       }
     }

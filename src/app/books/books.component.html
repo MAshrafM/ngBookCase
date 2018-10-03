@@ -4,6 +4,9 @@
     <button type="button" title="Edit book" class="btn btn-dark" (click)="editBook(book)">
       <fa name="edit"></fa>
     </button>
+    <button type="button" title="Delete book" class="btn btn-danger" (click)="deleteBook(book)">
+      <fa name="trash"></fa>
+    </button>
     <div class="card-body">
       <h5 class="card-title">{{book.title}}</h5>
       <h6 class="card-title">{{book.author}}</h6>

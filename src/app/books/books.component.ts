@@ -4,6 +4,7 @@ import { BookService } from './book.service';
 import { Subscription } from 'rxjs';
 
 import { EditBookComponent } from './book/edit-book/edit-book.component';
+import { DeleteBookComponent } from './book/delete-book/delete-book.component';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -34,6 +35,14 @@ export class BooksComponent implements OnInit {
       author: selectedBook.author,
       cover: selectedBook.cover,
       publishDate: selectedBook.publishDate
+    };
+  }
+  
+  deleteBook(selectedBook){
+    const deleteBookModalRef = this.modalService.open(DeleteBookComponent);
+    deleteBookModalRef.componentInstance.book = {
+      id: selectedBook.id,
+      title: selectedBook.title
     };
   }
 
