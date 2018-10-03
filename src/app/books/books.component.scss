@@ -12,12 +12,7 @@
       transition: all .2s ease;
       filter: grayscale(0%);
     }
-    &:hover{
-      .card-img-top {
-        filter: grayscale(70%);
-      }
-    }
-    
+
     h5 {
       font-size: 16px;
     }
@@ -27,6 +22,15 @@
     .card-img-top {
       height: 18rem;
       width: 100%;
+    }
+    
+    &:hover{
+      .card-img-top {
+        filter: grayscale(70%);
+      }
+      .btn-dark {
+        opacity: 1;
+      }
     }
   }
 }

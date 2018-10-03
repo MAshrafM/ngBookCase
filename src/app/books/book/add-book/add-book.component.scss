@@ -1,0 +1,23 @@
+.alert-warning {
+  width: 23rem;
+  position: absolute;
+  opacity: 0;
+  &:hover {
+    cursor: default;
+  }
+  &.showing {
+    position: static;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+}
+
+button.btn.btn-outline-info {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
+.alert{
+  border-radius: 0;
+}
