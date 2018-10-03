@@ -1,7 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Book } from './book.model';
 import { BookService } from './book.service';
 import { Subscription } from 'rxjs';
+
+import { EditBookComponent } from './book/edit-book/edit-book.component';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-books',
@@ -11,7 +14,7 @@ import { Subscription } from 'rxjs';
 export class BooksComponent implements OnInit {
   booksList: Book[];
   
-  constructor(private bookService: BookService) { }
+  constructor(private bookService: BookService, private modalService: NgbModal) { }
 
   ngOnInit() {
     this.getBooks();
@@ -21,6 +24,17 @@ export class BooksComponent implements OnInit {
     this.bookService.getBooks().subscribe((data: Book) => {
       this.booksList = data['books'];
     });
+  }
+  
+  editBook(selectedBook){
+    const editBookModalRef = this.modalService.open(EditBookComponent);
+    editBookModalRef.componentInstance.book = {
+      id: selectedBook.id,
+      title: selectedBook.title,
+      author: selectedBook.author,
+      cover: selectedBook.cover,
+      publishDate: selectedBook.publishDate
+    };
   }
 
 }

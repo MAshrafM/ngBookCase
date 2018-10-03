@@ -1,7 +1,9 @@
 <div class="card-deck container-fluid">
   <div *ngFor="let book of booksList" class="shadow card">
     <img class="card-img-top" src="{{book.cover}}" alt="Book Cover" />
-    
+    <button type="button" title="Edit book" class="btn btn-dark" (click)="editBook(book)">
+      <fa name="edit"></fa>
+    </button>
     <div class="card-body">
       <h5 class="card-title">{{book.title}}</h5>
       <h6 class="card-title">{{book.author}}</h6>
