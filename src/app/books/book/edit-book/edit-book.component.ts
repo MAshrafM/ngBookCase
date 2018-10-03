@@ -20,7 +20,7 @@ export class EditBookComponent{
   constructor(private bookService: BookService, public activeModal: NgbActiveModal) {}
 
 
-  onEditBook(bookId: number, bookEditForm: NgForm){
+  onEditBook(bookId, bookEditForm: NgForm){
     if(bookEditForm.valid){
       this.activeModal.dismiss();
       this.editedBook = {
